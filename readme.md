@@ -23,3 +23,8 @@ If for some reason your project stop working run :
 composer install
 php artisan migrate
 
+Team Members 
+---------------------------------------------
+Ahmad Bashir --> Project Manager / Team Lead / Back-end Developer
+Veronique Abakar --> Front-end Developer
+Roberta Akoto --> Web Designer
