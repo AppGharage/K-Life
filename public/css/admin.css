@@ -1,0 +1,144 @@
+hr{
+    width: 650px;
+}
+
+.small{
+    background-color:white;
+    position: fixed;
+    height: 300px;
+    width: 350px;
+    margin: 50px;
+    margin-left: 70px;
+    border: 1px solid whitesmoke;
+    border-radius: 9px;
+    padding: 10px
+}
+input{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    border-right: white;
+    border-top: white;
+    border-left: white;   
+}
+   .switch {
+   position: relative;
+   display: inline-block;
+   width: 60px;
+   height: 34px;
+   }
+
+   .switch input {display:none;}
+
+   .slider {
+   position: absolute;
+   cursor: pointer;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: #ccc;
+   -webkit-transition: .4s;
+   transition: .4s;
+   }
+
+   .slider:before {
+   position: absolute;
+   content: "";
+   height: 26px;
+   width: 26px;
+   left: 4px;
+   bottom: 4px;
+   background-color: white;
+   -webkit-transition: .4s;
+   transition: .4s;
+   }
+
+   input:checked + .slider {
+   background-color: #E3ae27;
+   }
+
+   input:focus + .slider {
+   box-shadow: 0 0 1px #E3ae27;
+   }
+
+   input:checked + .slider:before {
+   -webkit-transform: translateX(26px);
+   -ms-transform: translateX(26px);
+   transform: translateX(26px);
+   }
+
+   /* Rounded sliders */
+   .slider.round {
+   border-radius: 34px;
+   }
+
+   .slider.round:before {
+   border-radius: 50%;
+   }
+
+   /* REGISTER STUDENT FORM CSS */
+   .a{ 
+       margin: auto;
+       border-radius: 5px;
+       max-width: 800px;
+    }
+   .card-header{
+       color: white !important;
+       font-size: 20px !important;
+       text-align: center !important;
+       background-color: #DAA520 !important;
+   }
+   /* .header-text{
+       font-size: 20px;
+       color: white;
+       font-size: 20px;
+       text-align: center;
+   } */
+   .the-form{
+       padding:10px 25px;
+   }
+   label{
+       color: #aaa;
+   }
+   .top-reg-btn{
+    width: 140px; 
+    text-decoration: none !important;
+    padding: 8px 12px;
+    border-radius:5px;
+    background-color: #E3AE27;
+   }
+   .logo-container{
+    background-color: #E3AE27;
+    height: 80px;
+    padding: 25px 32.5px  !important;
+    font-weight: bold;
+    color: #fff !important;
+   }
+   .the-button{
+       border: 0px solid;
+       padding: 5px 14px;
+       box-shadow: 0px 0px 10px rgba(0,0,0,.13);
+       background-color: #Daa520;
+       border-radius: 7px;
+       width:140px;
+       color:white;
+       font-weight: bold;
+   }
+   .the-button:hover{
+       box-shadow: 0px 0px 10px rgba(0,0,0,.23);
+       background: #E3ae27;
+   }
+   .top-nav{
+       padding: 0px !important;
+   }
+   .button-container{
+       width: 140px;
+       margin: auto;
+   }
+   .the-input{
+       border-radius: 5px;
+       width: 100%;
+       border: 1px solid #aaa;
+   }
+   /* ENDOF REGISTER STUDENT FORM CSS */
