@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Student;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
@@ -23,6 +23,8 @@ class DashboardController extends Controller
      */
     public function index()
     {
-        return view('dashboard');
+        $students = Student::orderBy('firstname', 'desc')->paginate(10);
+        return view('dashboard')->with('students', $students);
+        
     }
 }

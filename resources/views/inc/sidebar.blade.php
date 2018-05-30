@@ -1,75 +1,36 @@
-<div class="sidebar-sticky  " style="max-width:300px;position:absolute;margin-top:80px; float:left;    padding-top: 20px;
-background-color: #333; height: 100%;">
-       
-    <ul class="nav flex-column">
-      <li class="nav-item">
-        <a class="nav-link text-light active" href="/dashboard">
-          <i class="fas fa-tachometer-alt" style="font-size:24px;"></i>     Dashboard <span class="sr-only">(current)</span>
-        </a>
-      </li>
-     
-      <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-2 mt-4 mb-1 text-muted">
-          <span>CONTENT</span>
-          <a class="d-flex align-items-center text-muted" href="#">
-          </a>
-        </h6>
-        <li class="nav-item">
-            <a class="nav-link text-light" href="#" >
-              <i class="far fa-file"></i>
-         Draft Announcement
-            </a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link text-light" href="#" >
-                <i class="fas fa-list-ul" ></i> Manage  Issues
+<div class="nav">
+  <div class="logo"><b>K-Life</b></div>
+      <a href="/dashboard"  class="tooltips">
+          <ion-icon class="sidebar-icon" name="ios-speedometer" md="ios-speedometer"></ion-icon>
+          <span class="tooltiptexts">Dashboard </span>
       
-              </a>
-            </li>
-
-
-    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-2 mt-4 mb-1 text-muted">
-        <span>TOOLS</span>
-       
-      </h6>
-      <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-          <span>Upload</span>
-         
-        </h6>
-      <li class="nav-item">
-        <a class="nav-link text-light " href="#" >
-          <i class="far fa-calendar-alt"></i>
-          Semester Timetable
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#">
-          <i class="fas fa-calendar-plus"></i>
-           Academic Calender
-        </a>
-      </li>
+        </a><br>
+      
      
-    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-2 mt-4 mb-1 text-muted">
-      <span>CONFIGURE</span>
-      <a class="d-flex align-items-center text-muted" href="#">
-      </a>
-    </h6>
+      <a href="/students"  class="tooltips">
+          <ion-icon class="sidebar-icon" name="ios-people" md="ios-people"></ion-icon>       
+          <span class="tooltiptexts">Manage Students</span>
+        </a><br>
+      <a href="/create"  class="tooltips">
+          <ion-icon class="sidebar-icon" name="ios-person-add" md="ios-person-add"></ion-icon> 
+          <span class="tooltiptexts">Register Student</span>
+      </a> 
+      <a href="#"  class="tooltips">
+          <ion-icon class="sidebar-icon" name="ios-create" md="ios-create"></ion-icon>
+          <span class="tooltiptexts">Draft Announcement</span>
+        
+        </a><br>
+        <a href="#"  class="tooltips">
+          <ion-icon class="sidebar-icon" name="ios-open" md="ios-open"></ion-icon>
+          <span class="tooltiptexts">Upload Time table</span>
+        </a><br>
+        <a href="#"  class="tooltips">
+            <ion-icon class="sidebar-icon" name="ios-calendar" md="ios-calendar"></ion-icon>
+            <span class="tooltiptexts">Upload Academic Calender</span>
      
-      <li class="nav-item">
-          <a class="nav-link text-light" href="#">
-            <i class="fas fa-align-right"></i>           
-            Manage Contents
-          </a>
-        </li>
-        <a class="nav-link text-light" href="/students">
-          <i class="fas fa-users"></i>         
-          Manage Students
-        </a>
-      </li>
-        <li class="nav-item">
-            <a class="nav-link text-light" href="/create">
-              <ion-icon ios="ios-add-circle-outline" md="ios-add-circle-outline" style="font-size:19px;"></ion-icon>           
-              Register Student
-            </a>
-          </li>
-    </ul>
-  </div>
+          </a><br>
+          <a href="#"  class="tooltips">
+              <ion-icon class="sidebar-icon" name="ios-notifications-outline" md="ios-notifications-outline"></ion-icon>        
+              <span class="tooltiptexts">View Notifications</span>
+            </a><br>
+</div>

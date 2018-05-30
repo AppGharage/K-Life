@@ -1,144 +1,223 @@
-hr{
-    width: 650px;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
-
-.small{
-    background-color:white;
-    position: fixed;
-    height: 300px;
-    width: 350px;
-    margin: 50px;
-    margin-left: 70px;
-    border: 1px solid whitesmoke;
-    border-radius: 9px;
-    padding: 10px
+body{
+    background: #3b3b3b !important;
 }
-input{
-    width: 100%;
-    height: 40px;
-    font-size: 20px;
-    border-right: white;
-    border-top: white;
-    border-left: white;   
+nav{
+    padding: 20px 5px;
 }
-   .switch {
-   position: relative;
-   display: inline-block;
-   width: 60px;
-   height: 34px;
-   }
-
-   .switch input {display:none;}
-
-   .slider {
-   position: absolute;
-   cursor: pointer;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   background-color: #ccc;
-   -webkit-transition: .4s;
-   transition: .4s;
-   }
-
-   .slider:before {
-   position: absolute;
-   content: "";
-   height: 26px;
-   width: 26px;
-   left: 4px;
-   bottom: 4px;
-   background-color: white;
-   -webkit-transition: .4s;
-   transition: .4s;
-   }
-
-   input:checked + .slider {
-   background-color: #E3ae27;
-   }
-
-   input:focus + .slider {
-   box-shadow: 0 0 1px #E3ae27;
-   }
-
-   input:checked + .slider:before {
-   -webkit-transform: translateX(26px);
-   -ms-transform: translateX(26px);
-   transform: translateX(26px);
-   }
-
-   /* Rounded sliders */
-   .slider.round {
-   border-radius: 34px;
-   }
-
-   .slider.round:before {
-   border-radius: 50%;
-   }
-
-   /* REGISTER STUDENT FORM CSS */
-   .a{ 
-       margin: auto;
-       border-radius: 5px;
-       max-width: 800px;
-    }
-   .card-header{
-       color: white !important;
-       font-size: 20px !important;
-       text-align: center !important;
-       background-color: #DAA520 !important;
-   }
-   /* .header-text{
-       font-size: 20px;
-       color: white;
-       font-size: 20px;
-       text-align: center;
-   } */
-   .the-form{
-       padding:10px 25px;
-   }
-   label{
-       color: #aaa;
-   }
-   .top-reg-btn{
-    width: 140px; 
+strong{
+    font-size: 25px; 
+   color: #CCCCCC; 
+}
+small{ 
+    font-size: 18px;
+   color: 555555;
+}
+.hr{
+    max-width: 1000px;
+    margin: auto;
+    color: #aaa;
+    
+}
+.user{
+    font-size: 18px;
+    color: white;
+}
+.test-user{
+    float: right;
+    color: white;
+}
+.register-student{
+    float: right;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: #212327;
+    background-color:rgb(223, 168, 29);
+    padding:8px 10px;
+    display: block;
     text-decoration: none !important;
-    padding: 8px 12px;
-    border-radius:5px;
-    background-color: #E3AE27;
-   }
-   .logo-container{
-    background-color: #E3AE27;
-    height: 80px;
-    padding: 25px 32.5px  !important;
+    transition: all 0.2s ease-in-out;
+} 
+.gold{
+    color: #83621b;
+}
+.arsh{
+    color: #6b6b6b;
+    transition: all 0.2s ease-in-out;
+}
+.arsh:hover{
+    color: #858585;
+}
+.sub-title{
+    font-size: 14px;
+    padding: 5px 0px 10px 10px; 
+    color: #858585;
+    font-weight: bold
+}
+.register-student:hover{
+    background-color:rgb(255, 192, 34);
+    color: #83621b;
+} 
+.card-value{
+    font-size: 38px;
+    text-align: center;
+    font-style: normal;
     font-weight: bold;
-    color: #fff !important;
-   }
-   .the-button{
-       border: 0px solid;
-       padding: 5px 14px;
-       box-shadow: 0px 0px 10px rgba(0,0,0,.13);
-       background-color: #Daa520;
-       border-radius: 7px;
-       width:140px;
-       color:white;
-       font-weight: bold;
-   }
-   .the-button:hover{
-       box-shadow: 0px 0px 10px rgba(0,0,0,.23);
-       background: #E3ae27;
-   }
-   .top-nav{
-       padding: 0px !important;
-   }
-   .button-container{
-       width: 140px;
-       margin: auto;
-   }
-   .the-input{
-       border-radius: 5px;
-       width: 100%;
-       border: 1px solid #aaa;
-   }
-   /* ENDOF REGISTER STUDENT FORM CSS */
+    line-height: normal;
+    font-size: 32px;
+    color: #937124;
+
+}
+
+.main{
+    padding: 0px 10px 5px 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+.icon-text{
+    font-size: 18px;
+    font-weight: bold;
+    color: #937124;
+    
+}
+.top-cards{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(150px, auto);
+}
+.item{
+    background: linear-gradient(180deg, #FCBE21 0%, #C7910A 100%);
+    border-radius: 8px;
+    padding: 20px 10px 0px 10px;
+    max-width: 320px !important;
+}
+.item2{
+    background: #353535;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-size: 25px;
+    color: white;
+}
+.bottom-cards{
+    margin: auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-gap: 1em; 
+    grid-auto-rows: minmax(330px, auto);
+}
+.bottom-content{
+    color: #A0A0A0;
+    font-size: 12px;
+}
+.bottom-content a{
+    color: #A0A0A0;
+}
+.nav{
+    width: 100px;
+    position: fixed;
+    height: 100%;
+    background: rgb(41, 41, 41);
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.18);
+}
+.tooltips {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltips .tooltiptexts {
+    visibility: hidden;
+    width: 160px;
+    background: #555555;
+    color: #A0A0A0;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 28px;
+    left: 80%;
+}
+
+.tooltips:hover .tooltiptexts {
+    visibility: visible;
+}
+.logo{
+    font-size: 34px;
+    background: linear-gradient(180deg, #FCBE21 0%, #C7910A 100%);
+    padding-top: 10px;
+    width:100px;
+    height: 80px;
+    color: #83621b;
+}
+.sidebar-icon{
+    font-size: 26px;
+    color: #555555;
+    margin: 30px 35px ;
+    transition:all 0.13s ease-in-out; 
+}
+.sidebar-icon:hover{
+    color:rgb(255, 192, 34);
+}
+.icon-content{
+    width: 100px;
+    margin: auto;    
+}
+.icon-content1{
+    width: 60px;
+    margin: auto;  
+}
+.xlarge-text{
+    font-size: 120px;
+}
+.top-card-icon{
+    color: #B78723;
+    font-size: 80px;
+}
+.top-bar{
+    height: 60px;
+    padding: 0px 10px;
+    margin-right: 30px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px ){
+    .top-cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .bottom-cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 767px) and (max-width: 1024px ){
+    .top-cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .bottom-cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 767px ){
+    .top-cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    .bottom-cards{
+        grid-template-columns:  1fr;
+    }
+    .register-student{
+    display: none;
+    } 
+}
+@media (min-width: 320px) and (max-width: 480px ){
+    .top-cards{
+        grid-template-columns: 1fr;
+    }
+    .bottom-cards{
+        grid-template-columns:  1fr;
+    }
+}
