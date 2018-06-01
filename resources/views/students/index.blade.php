@@ -4,8 +4,11 @@
 @endsection
 @include('inc.sidebar')
     @section('content')
-    <div class="card">
-                <div class="card-header the-header"><h2>Students</h2></div>
+    <br> <br>
+    <div class="the-card">
+            <div class="card-header the-header">
+                    <b>Students</b>        
+            </div>
                 <div class=" text-center text-secondary">
                     <br>
                         @if(count($students) > 0)
@@ -24,7 +27,7 @@
                                                         <td>{{$student->indexNo}}</td>
                                                         <td>{{$student->email}}</td>
                                                         <td>{{$student->phone}}</td>
-                                                        <td><a href="/students/{{$student->id}}" class ="btn btn-sm btn-secondary">View</a></td>
+                                                        <td><a href="/students/{{$student->id}}" class ="btn btn-sm view-btn">View</a></td>
                                                     </tr>
                                                 @endforeach
                                         </table>  

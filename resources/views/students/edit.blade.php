@@ -4,18 +4,17 @@
     <link rel="stylesheet" href="{{asset('css/admin.css')}}">
 @endsection
     @section('content')
-    <br>
+    <br> <br>
 
     <div class="row justify-content-center">
             <div class="col-md-8 container">
-            <div class="card ">
+            <div class="the-card">
                 <div class="card-header the-header">
                         <b>Update Student Information</b>        
                 </div>
-                <a onclick="history.go(-1)"class="btn btn-light pull-right">Back</a>
-                <br>
-                    
                     <div class="card-body">
+                            <a onclick="history.go(-1)"class="btn btn-secondary btn-sm float-right text-light">Back</a>
+                            <br>
                     {!! Form::open(['action'=> ['StudentsController@update', $student->id], 'method' => 'POST'] ) !!}
                         <div class="form-group">
                             {{form::label('firstname', 'First Name')}}

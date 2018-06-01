@@ -4,11 +4,8 @@
     <link rel="stylesheet" href="{{asset('css/admin.css')}}">
 @endsection
     @section('content')
-        <div class="container ">
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                        <br>
-                        <div class="card">
+    <br><br>
+                        <div class="the-card">
                                 <div class="card-header the-header">
                                         <b>Register a Student</b>        
                                 </div>
@@ -16,32 +13,29 @@
                                     {!! Form::open(['action'=> 'StudentsController@store', 'method' => 'POST'] ) !!}
                                     <div class="the-form">
                                         {{form::label('firstname', 'First Name')}}
-                                        {{form::text('firstname', '', ['class' => 'form-control', 'placeholder' => 'e.g Kojo'])}}
+                                        {{form::text('firstname', '', ['class' => 'form-control', 'placeholder' => 'Kojo'])}}
                                     </div>
                                     <div class="the-form">
                                         {{form::label('lastname', 'Last Name')}}
-                                        {{form::text('lastname', '', ['class' => 'form-control', 'placeholder' => 'e.g Yeboah'])}}
+                                        {{form::text('lastname', '', ['class' => 'form-control', 'placeholder' => 'Yeboah'])}}
                                     </div>
                                     <div class="the-form">
                                         {{form::label('indexNo', 'Index No')}}
-                                        {{form::text('indexNo', '', ['class' => 'form-control', 'placeholder' => 'e.g KUS01234'])}}
+                                        {{form::text('indexNo', '', ['class' => 'form-control', 'placeholder' => 'KUS01234'])}}
                                     </div>
                                     <div class="the-form">
                                             {{form::label('email', 'Email')}}
-                                            {{form::email('email', '', ['class' => 'form-control', 'placeholder' => 'e.g kojoyeboah@eample.com'])}}
+                                            {{form::email('email', '', ['class' => 'form-control', 'placeholder' => 'kojoyeboah@eample.com'])}}
                                     </div>  
                                     <div class="the-form">
                                             {{form::label('phone', 'Phone')}}
-                                            {{form::number('phone', '', ['class' => 'form-control', 'maxlength' => '10','placeholder' => 'e.g 0239876543'])}}
+                                            {{form::number('phone', '', ['class' => 'form-control', 'maxlength' => '10','placeholder' => '0239876543'])}}
                                     </div>  
                                     <br>
                                     <div class="center-btn">
-                                       {{form::submit('Create!', ['class'=> 'the-button'])}}
+                                       {{form::submit('Register', ['class'=> 'the-button'])}}
                                     </div>    
-                            {!! Form::close() !!}
+                                     {!! Form::close() !!}
+                            </div>
                         </div>
-                        </div>
-                </div>
-            </div>
-        </div>    
     @endsection
