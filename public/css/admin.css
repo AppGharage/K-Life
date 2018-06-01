@@ -274,6 +274,12 @@ input{
     color: white;
     background-color: rgb(187, 187, 187);
 }
+.message-card{
+    max-width: 600px !important;
+    background: #fff;
+    margin: auto;
+    border-radius: 4px;
+}
 
 .second-button{
     float: right;

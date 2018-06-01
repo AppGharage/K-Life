@@ -5,7 +5,7 @@
 @endsection
     @section('content')
     <br>
-    <div class="the-card">
+    <div class="message-card">
         <div class="card-header the-header">
             <B>NEW MESSAGE</B>
             <button type="button" class="close" aria-label="Close">
