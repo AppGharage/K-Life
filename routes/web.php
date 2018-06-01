@@ -11,11 +11,10 @@
 |
 */
 
-Route::get('/', 'PagesController@index');
-Route::get('/create', 'PagesController@create');
-Route::get('/students', 'PagesController@manage');
+Route::get('/', 'DashboardController@index');
 Route::resource('students','StudentsController');
-
+Route::get('/create', 'StudentsController@create');
+Route::get('/students', 'StudentsController@index');
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');

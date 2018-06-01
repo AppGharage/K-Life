@@ -72,7 +72,37 @@ small{
     color: #937124;
 
 }
+.the-header{
+    color: white;
+    text-align: center;
+    background-color: #Daa520 !important;
+    font-size: 20px;
+}
 
+label{
+    color:rgb(104, 104, 104) !important; 
+}
+.center-btn{
+    margin: auto;
+    width: 100px;
+}
+input{
+    height: 30px;
+    padding: 0px 10px 0px 15px;
+    border: 1px solid #eee;
+}
+.input{
+    width: 90%;
+}
+.the-button{
+    width: 100px;
+    padding: 0px 5px;
+    font-size: 20px;
+    background-color: #Daa520;
+    color: white;
+    height: 35px;
+    border-radius: 3px;
+}
 .main{
     padding: 0px 10px 5px 120px;
     max-width: 1000px;

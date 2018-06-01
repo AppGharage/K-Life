@@ -4,13 +4,15 @@
     <link rel="stylesheet" href="{{asset('css/admin.css')}}">
 @endsection
     @section('content')
-    <div class="row justify-content-center">
-        <div class="col-md-8 container">
+    <br>
             <div class="card ">
-                <a onclick="history.go(-1)"class="btn btn-light">Back</a>
+                <div class="card-header the-header">
+                        <b>Update Student Information</b>        
+                </div>
+                <a onclick="history.go(-1)"class="btn btn-light pull-right">Back</a>
                 <br>
-                <div class="container">
-                    <h2>Update Student Information</h2>
+                    
+                    <div class="card-body">
                     {!! Form::open(['action'=> ['StudentsController@update', $student->id], 'method' => 'POST'] ) !!}
                         <div class="form-group">
                             {{form::label('firstname', 'First Name')}}
@@ -31,12 +33,13 @@
                         <div class="form-group">
                             {{form::label('phone', 'Phone')}}
                             {{form::number('phone', $student->phone, ['class' => 'form-control', 'placeholder' => 'Please Enter Student Phone Number'])}}
-                        </div>      
+                        </div>   
                         {{form::hidden('_method', 'PUT')}}
-                            {{form::submit('Update!', ['class'=> 'btn btn-primary'])}}
+                        <div class="center-btn">
+                                {{form::submit('Update', ['class'=> 'the-button '])}}
+                        </div>  
                     {!! Form::close() !!}
                 </div>
             </div>
-        </div>
     </div>
     @endsection

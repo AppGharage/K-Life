@@ -33,7 +33,6 @@
                                 {{form::number('phone', $student->phone, ['class' => 'form-control', 'placeholder' => 'Please Enter Student Phone Number','disabled' =>'disabled'])}}
                             </div>      
                         {!! Form::close() !!}
-                                <hr>
                                 <small>Student Created at {{$student->created_at}}</small>
                                 <hr>
                                 <a href="./{{$student->id}}/edit" class="btn btn-primary">Edit Student</a>
@@ -41,7 +40,9 @@
                                     {{Form::hidden('_method', 'DELETE')}}
                                     {{Form::submit('Delete' ,['class' => 'btn btn-danger'])}}
                                 {!! Form::close() !!}
+                              
                         </div>
+                        <br>
                     </div>
                 </div>
         </div>
