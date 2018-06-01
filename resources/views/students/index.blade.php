@@ -19,7 +19,7 @@
                                                 <th>Index Number</th>
                                                 <th>Email Address</th>
                                                 <th>Phone Number</th>
-                                                <th></th>
+                                                <th>Action</th>
                                             </tr>
                                                 @foreach($students as $student)
                                                     <tr>
