@@ -16,15 +16,16 @@
                                                 <th>Index Number</th>
                                                 <th>Email Address</th>
                                                 <th>Phone Number</th>
+                                                <th></th>
                                             </tr>
                                                 @foreach($students as $student)
                                                     <tr>
-                                                        <td><a class="text-dark" href="./students/{{$student->id}}">{{$student->firstname}} {{$student->lastname}}</a></td>
+                                                        <td><a class="text-dark" href="/students/{{$student->id}}">{{$student->firstname}} {{$student->lastname}}</a></td>
                                                         <td>{{$student->indexNo}}</td>
                                                         <td>{{$student->email}}</td>
                                                         <td>{{$student->phone}}</td>
+                                                        <td><a href="/students/{{$student->id}}" class ="btn btn-sm btn-secondary">View</a></td>
                                                     </tr>
-                                                    
                                                 @endforeach
                                         </table>  
                             {{$students->links()}}
