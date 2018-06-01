@@ -15,7 +15,7 @@
           <ion-icon class="sidebar-icon" name="ios-person-add" md="ios-person-add"></ion-icon> 
           <span class="tooltiptexts">Register Student</span>
       </a> 
-      <a href="#"  class="tooltips">
+      <a href="/draft"  class="tooltips">
           <ion-icon class="sidebar-icon" name="ios-create" md="ios-create"></ion-icon>
           <span class="tooltiptexts">Draft Announcement</span>
         

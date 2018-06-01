@@ -234,7 +234,59 @@ input{
     padding: 0px 10px;
     margin-right: 30px;
 }
+.the-head{
+    border: 1px solid white;
+    background-color: #Daa520;
+    color: white;
+}
 
+.the-close{
+  color: white;
+  font-size: 25px !important;
+}
+
+
+.bottom-card{
+    border: 1px solid rgb(163, 156, 156);
+    border-radius: 4px;
+    outline: none;
+    width: 90%;
+    height: 90px;
+}
+
+
+.the-footer{
+    height: 50px;
+    border: 1px solid white;
+    background-color: rgb(192, 184, 184);
+    margin-top: 41px;
+}
+
+.first-button{
+    float: right;
+    margin-right: 40px;
+    background-color: white;
+    border: 0px;
+}
+.first-button:hover{
+    float: right;
+    margin-right: 40px;
+    color: white;
+    background-color: rgb(187, 187, 187);
+}
+
+.second-button{
+    float: right;
+    width: 100px;
+    border-radius: 2px;
+    border: 0px;
+    margin-right: 10px;
+    background-color: #Daa520;
+    color: white;
+}
+.second-button:hover{
+    background-color: rgb(231, 175, 34);
+}
 @media (min-width: 1025px) and (max-width: 1280px ){
     .top-cards{
         grid-template-columns: 1fr 1fr 1fr;

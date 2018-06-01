@@ -25,6 +25,9 @@ class DashboardController extends Controller
     {
         $students = Student::orderBy('firstname', 'desc')->paginate(10);
         return view('dashboard')->with('students', $students);
-        
+    }
+    public function message()
+    {
+        return view('students.message');
     }
 }
