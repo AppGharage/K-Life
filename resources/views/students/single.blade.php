@@ -40,7 +40,6 @@
                                     {{Form::hidden('_method', 'DELETE')}}
                                     {{Form::submit('Delete' ,['class' => 'btn btn-danger'])}}
                                 {!! Form::close() !!}
-                              
                         </div>
                         <br>
                     </div>

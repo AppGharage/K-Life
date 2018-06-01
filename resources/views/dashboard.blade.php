@@ -42,6 +42,7 @@
             <p class="sub-title">
                  Recent Students
             </p>
+            <table></table>
           
         </div>
         <div class="item2">

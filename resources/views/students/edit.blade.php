@@ -5,6 +5,9 @@
 @endsection
     @section('content')
     <br>
+
+    <div class="row justify-content-center">
+            <div class="col-md-8 container">
             <div class="card ">
                 <div class="card-header the-header">
                         <b>Update Student Information</b>        
@@ -36,10 +39,13 @@
                         </div>   
                         {{form::hidden('_method', 'PUT')}}
                         <div class="center-btn">
-                                {{form::submit('Update', ['class'=> 'the-button '])}}
+                                {{form::submit('Update', ['class'=> 'the-button'])}}
                         </div>  
                     {!! Form::close() !!}
+              
                 </div>
             </div>
+        </div>
+    </div>
     </div>
     @endsection
