@@ -23,7 +23,7 @@
             <div class="icon-content1">
                     <i class="fas fa-clipboard-list top-card-icon"></i>   
                     <b class="icon-text">Issue(s)</b>  
-                   <p class="card-value">{{count($students)}}</p>
+                   <p class="card-value">0</p>
                      
             </div>
         </div>
@@ -31,7 +31,7 @@
             <div class="icon-content">
                     <i class="fas fa-bullhorn top-card-icon" ></i>
                     <b class="icon-text">Announcement(s)</b>  
-                   <p class="card-value">{{count($students)}}</p>
+                   <p class="card-value">0</p>
                    
             </div>
         </div>

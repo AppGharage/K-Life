@@ -31,9 +31,10 @@ small{
     float: right;
     color: white;
 }
+
 .register-student{
     float: right;
-    margin-right: 10px;
+    margin-right: 30px;
     border-radius: 5px;
     border: #212327;
     background-color:rgb(223, 168, 29);
@@ -114,7 +115,7 @@ input{
 }
 .main{
     padding: 0px 10px 5px 120px;
-    max-width: 1000px;
+    max-width: 1500px;
     margin: auto;
 }
 .icon-text{

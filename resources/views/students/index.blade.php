@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="{{asset('css/admin.css')}}">
 @endsection
 @include('inc.sidebar')
+<div class="col-md-4 container">@include('inc.messages')</div>
     @section('content')
     <br> <br>
     <div class="the-card">
@@ -13,8 +14,10 @@
                     <br>
                         @if(count($students) > 0)
                                     <h6>{{count($students)}} Student(s) and still counting...</h6>
-                                        <table class=" container table table-responsive text-secondary">
-                                            <tr class="table-secondary">
+                                    <div class="table-responsive">
+                                    
+                                        <table class=" container table text-secondary">
+                                            <tr class="thead-light">
                                                 <th>Full Name</th>
                                                 <th>Index Number</th>
                                                 <th>Email Address</th>
@@ -31,6 +34,8 @@
                                                     </tr>
                                                 @endforeach
                                         </table>  
+                                           
+                                    </div> 
                             {{$students->links()}}
                         @else
                             <p>No Students Available :'(</p>
