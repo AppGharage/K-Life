@@ -23,6 +23,7 @@ small{
     color: #aaa;
     
 }
+
 .user{
     font-size: 18px;
     color: white;
@@ -94,6 +95,10 @@ label{
     margin: auto;
     width: 100px;
 }
+.forgot{
+    float: right;
+    color: #Daa520 !important;
+}
 input{
     height: 30px;
     padding: 0px 10px 0px 15px;
@@ -111,6 +116,7 @@ input{
     background-color: #Daa520;
     color: white;
     height: 35px;
+    border: 0px solid;
     border-radius: 3px;
 }
 .main{
