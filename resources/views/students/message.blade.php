@@ -7,7 +7,7 @@
     <br>
     <div class="message-card">
         <div class="card-header the-header">
-            <B>NEW MESSAGE</B>
+            <b>NEW MESSAGE</b>
             <button type="button" class="close" aria-label="Close">
                 <span class="the-close" aria-hidden="true">&times;</span>
             </button>
