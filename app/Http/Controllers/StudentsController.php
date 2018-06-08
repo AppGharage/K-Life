@@ -11,6 +11,16 @@ class StudentsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+         /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     public function index()
     {
         $students = Student::orderBy('firstname', 'desc')->paginate(10);
