@@ -10,6 +10,7 @@
             @guest
             <nav class="navbar">
                 <li><a class=" btn btn-primary" href="{{ route('login') }}">{{ __('Login') }}</a></li>
+                {{-- <li><a class=" btn btn-success" href="{{ route('register') }}">{{ __('Register') }}</a></li> --}}
             </nav>
             @else
                 
